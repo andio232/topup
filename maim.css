@@ -1,0 +1,161 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.container {}
+
+
+.navigationbar {
+    background-color: green;
+    height: 144px;
+    width: 15vh;
+    margin-left: 45px;
+    margin-top: 40vh;
+
+}
+
+.nul {
+
+    align-items: center;
+
+}
+
+.li {
+    list-style-type: none;
+    background-color: darkcyan;
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.li:hover {
+    background-color: black;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 0;
+}
+
+.a-c {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+.ic {
+    background-color: aqua;
+
+
+    width: 160px;
+    height: 160px;
+}
+
+.dc {
+    margin-left: 250px;
+    margin-top: -20%;
+}
+
+
+.dc2 {
+    margin-top: 0%;
+    margin-left: 250px;
+}
+
+.ic2 {
+    width: 160px;
+    height: 160px;
+}
+
+.ac2 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+//
+.p {
+    margin-top: -10%;
+    margin-left: 250px;
+}
+
+.p2 {
+    margin-top: -8%;
+    margin-left: 245px;
+}
+
+.dp {
+    margin-top: 0%;
+    margin-left: 50%;
+}
+
+.dc {
+    margin-left: 250px;
+    margin-top: -20%;
+}
+
+
+.dc3 {
+    margin-top: 2%;
+    margin-left: 55%;
+}
+
+.ic3 {
+    width: 45px;
+    height: 45px;
+}
+
+.ac3 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.pp {
+    margin-top: 2%;
+    margin-left: 55%;
+}
+
+.S {
+    font-size: 25px;
+    margin-top: 25%;
+    margin-left: 50%;
+}
+
+.back {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: -39%;
+}
+
+.support {
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: -10%;
+}
+
+.dt {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-widht : 768px) {
+    .navigationbar {
+        height: 124px;
+        width: 5vh;
+        margin-left: 35px;
+        margin-top: 30vh;
+    }
+}
